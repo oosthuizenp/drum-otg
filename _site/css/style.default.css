@@ -222,17 +222,6 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
-/* Underline of Headings */
-/* .heading:after {
-  content: " ";
-  display: block;
-  width: 100px;
-  height: 1px;
-  margin: 20px 0 20px;
-  background: auto;
-} */
-
 .section-inverse {
   color: #fff;
   background: #333;
@@ -279,6 +268,7 @@ nav.navbar a.nav-link {
   padding-top: .6rem;
   padding-bottom: .6rem;
   font-size: large;
+  border-radius: 3px;
 }
 
 nav.navbar a.nav-link.active,
