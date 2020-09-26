@@ -295,28 +295,7 @@ nav.navbar.sticky {
   z-index: 999;
 }
 
-/* ABOUT SECTION */
 
-.about img {
-  border: 2px solid transparent;
-  border-color: #bebebe;
-  max-width: 300px;
-}
-
-.zoom {
-  /* padding: 50px; */
-  /* background-color: green; */
-  transition: transform .6s;
-  /* Animation */
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
   /* WHAT I DO | SERVICES SECTION */
 
@@ -345,6 +324,82 @@ nav.navbar.sticky {
 
   }
 
+  /* ABOUT SECTION */
+
+.about img {
+  border: 2px solid transparent;
+  border-color: #bebebe;
+  max-width: 300px;
+}
+
+.zoom {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .6s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+  
+  /* CLIENTS */
+
+  .clients .clients-wrap {
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+  }
+
+  .clients .client-logo {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background: #fff;
+    height: 100px;
+  }
+
+  .clients .client-logo img {
+    height: 5 0%;
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+    transition: 0.4s;
+  }
+
+  .clients .client-logo:hover img {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.3);
+  }
+
+  .clients img {
+    transition: all 0.8s ease-in-out;
+  }
+
+
+
+  /* TEAM  */
+  .team p {
+    font-size: 1.1em;
+  }
+
+
+  .team img {
+    border-radius: 10px;
+    border-style: initial;
+    border-width: 3px;
+    border: 1px solid transparent;
+    border-color: lawngreen;
+    max-width: 200px
+  }
 
   /* Testimonials */
 
@@ -419,59 +474,6 @@ nav.navbar.sticky {
     .testimonials .testimonial-item p {
       width: 80%;
     }
-  }
-
-  /* CLIENTS */
-
-  .clients .clients-wrap {
-    border-top: 1px solid #eee;
-    border-left: 1px solid #eee;
-  }
-
-  .clients .client-logo {
-    padding: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    overflow: hidden;
-    background: #fff;
-    height: 100px;
-  }
-
-  .clients .client-logo img {
-    height: 5 0%;
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%);
-    transition: 0.4s;
-  }
-
-  .clients .client-logo:hover img {
-    -webkit-filter: none;
-    filter: none;
-    transform: scale(1.3);
-  }
-
-  .clients img {
-    transition: all 0.8s ease-in-out;
-  }
-
-
-
-  /* TEAM  */
-  .team p {
-    font-size: 1.1em;
-  }
-
-
-  .team img {
-    border-radius: 10px;
-    border-style: initial;
-    border-width: 3px;
-    border: 1px solid transparent;
-    border-color: lawngreen;
-    max-width: 200px
   }
 
   /* FOOTER */
