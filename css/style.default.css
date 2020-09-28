@@ -72,7 +72,6 @@ section {
 }
 
 .intro h1,
-.intro h2,
 .intro h3,
 .intro p {
   color: #fff;
@@ -80,6 +79,12 @@ section {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1em;
+}
+
+.intro h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  color: #ffbb00;
 }
 
 .intro p {
@@ -267,7 +272,7 @@ nav.navbar a.nav-link {
   border-bottom: 1px solid transparent;
   padding-top: .6rem;
   padding-bottom: .6rem;
-  font-size: large;
+  font-size: 1.1em;
   border-radius: 3px;
 }
 
