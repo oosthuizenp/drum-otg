@@ -311,7 +311,7 @@ nav.navbar.sticky {
 
   .services .icon {
     font-size: 50px;
-    color: #262626;
+    color: #2c0ba3;
     margin-bottom: 10px;
   }
 
@@ -493,6 +493,8 @@ nav.navbar.sticky {
     text-align: center;
     margin-right: 5px;
   }
+
+  <li>Removed Weekly</li>
 
   /* SOCIAL SECTION  */
 
